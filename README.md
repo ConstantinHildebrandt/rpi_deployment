@@ -8,3 +8,12 @@ git clone https://github.com/ConstantinHildebrandt/rpi_deployment.git
 ## 2 - Set the permissions
 
 find ./public -type f -iname "*.sh" -exec chmod +x {} \;
+
+## 3 - Execute a script
+
+- sh basicInstall.sh
+    - update/upgrade
+    - install xrdp
+    - install pure-ftpd
+    - enable+start ssh
+

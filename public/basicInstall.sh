@@ -17,8 +17,12 @@ echo
 sudo apt install pure-ftpd -y
 sudo systemctl start ssh
 sudo systemctl enable ssh
+
+echo
+echo "Is ssh enabled?"
+echo 
 sudo systemctl is-enabled ssh
-sudo systemctl status ssh
+#sudo systemctl status ssh
 
 echo
 echo "That is the current network interface configuration"

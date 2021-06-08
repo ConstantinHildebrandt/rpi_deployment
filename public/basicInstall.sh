@@ -15,3 +15,8 @@ echo
 echo "Will try to install pure-ftpd"
 echo 
 sudo apt install pure-ftpd -y
+
+echo
+echo "That is the current network interface configuration"
+echo 
+ifconfig
